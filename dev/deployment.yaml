@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: sysose/testapp:1.7
+        image: sysose/testapp:1.9
         ports:
         - containerPort: 5000
