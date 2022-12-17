@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: sysose/config-ms-k8s:0.1
+        image: sysose/syso:syso-shop-user-ms
         ports:
         - containerPort: 8080
