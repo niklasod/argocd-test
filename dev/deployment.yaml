@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: sysose/testapp:1.11
+        image: sysose/testapp:1.12
         ports:
         - containerPort: 5000
         livenessProbe:
