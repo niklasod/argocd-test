@@ -13,7 +13,7 @@ spec:
         app: testapp
     spec:
       containers:
-        - name: testapp
-          image: niklasod/testapp:1.0
-          ports:
-            - containerPort: 8080
+      - name: testapp
+        image: niklasod/testapp:1.0
+        ports:
+        - containerPort: 8080
