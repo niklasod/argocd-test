@@ -20,7 +20,7 @@ spec:
         image: sysose/testapp:1.18
         resources:
           requests:
-            memory: "13Mi"
+            memory: "16Mi"
             cpu: "90m"
           limits:
             memory: "16Mi"
