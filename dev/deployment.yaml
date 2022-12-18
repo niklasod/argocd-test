@@ -20,10 +20,10 @@ spec:
         image: sysose/testapp:1.18
         resources:
           requests:
-            memory: "16Mi"
+            memory: "20Mi"
             cpu: "90m"
           limits:
-            memory: "16Mi"
+            memory: "20Mi"
             cpu: "100m"
         ports:
         - containerPort: 5000
