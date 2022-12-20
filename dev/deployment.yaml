@@ -6,9 +6,11 @@ spec:
   selector:
     matchLabels:
       app: testapp
-  replicas: 1
+  replicas: 2
   strategy:
     type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
   template:
     metadata: 
       labels:
