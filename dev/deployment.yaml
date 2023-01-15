@@ -31,10 +31,10 @@ spec:
           httpGet:
             path: /
             port: 5000
-          initialDelaySeconds: 5
+          initialDelaySeconds: 15
           periodSeconds: 5
         readynessProbe:
           httpGet:
             path: /
             port: 5000
-            initialDelaySeconds: 3
+            initialDelaySeconds: 15
