@@ -15,4 +15,4 @@ spec:
               service:
                 name: testapp-service
                 port:
-                  number: 30000
+                  number: 5000
