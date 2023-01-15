@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: sysose/testapp:1.21
+        image: sysose/testapp:1.22
         resources:
           requests:
             memory: "50Mi"
